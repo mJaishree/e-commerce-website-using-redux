@@ -171,6 +171,13 @@ export const Detail = () => {
           </div>
         </div>
       </div>
+      <footer class="text-center">
+        <div class="footer-links">
+          <Link to='/'>Home</Link> |
+          <Link to='/fav'>My Favourites</Link> |
+          <Link to='/cart'>My cart</Link> 
+        </div>
+      </footer>
     </div>
   );
 };
