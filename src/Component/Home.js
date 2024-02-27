@@ -184,6 +184,8 @@ export const Home = ()=>{
                     )
                 })
             }
+            
+            </div>
             <footer class="text-center">
                 <div class="footer-links">
                     <Link to='/'>Home</Link> |
@@ -191,7 +193,6 @@ export const Home = ()=>{
                     <Link to='/cart'>My cart</Link> 
                 </div>
             </footer>
-            </div>
         </div>     
     )
 }
