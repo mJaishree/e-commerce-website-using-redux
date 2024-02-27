@@ -116,7 +116,7 @@ export const Home = ()=>{
    
 
     return(
-        <div className='c'>
+        <div>
            
             <nav className="navbar">
                 
@@ -124,7 +124,7 @@ export const Home = ()=>{
                 <h1 style={{color:"#4CAF50"}}>FRESH FRUITS</h1>
                 <Link to='/cart'><CgShoppingCart /></Link>
             </nav>
-            <div className='container'>
+            <div className='container align-items-center justify-content-center'>
            
             {
                 state.arr.map((v,i)=>{
@@ -184,6 +184,13 @@ export const Home = ()=>{
                     )
                 })
             }
+            <footer class="text-center">
+                <div class="footer-links">
+                    <Link to='/'>Home</Link> |
+                    <Link to='/fav'>My Favourites</Link> |
+                    <Link to='/cart'>My cart</Link> 
+                </div>
+            </footer>
             </div>
         </div>     
     )
