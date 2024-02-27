@@ -137,7 +137,7 @@ export const Fav = ()=>{
                 <Link to='/cart'><CgShoppingCart /></Link>
             </nav>
  
-            <div className="container">
+            <div className="container align-items-center justify-content-center">
 
                 {
                     fav1.map((v,i)=>{
@@ -195,6 +195,13 @@ export const Fav = ()=>{
                         })
                 }
             </div>
+            <footer class="text-center">
+                <div class="footer-links">
+                    <Link to='/'>Home</Link> |
+                    <Link to='/fav'>My Favourites</Link> |
+                    <Link to='/cart'>My cart</Link> 
+                </div>
+            </footer>
         </div>
 
         
