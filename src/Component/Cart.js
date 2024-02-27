@@ -124,7 +124,7 @@ export const Cart = ()=>{
                 <Link to='/fav'><IoHeartOutline /></Link>
             </nav>
 
-            <div className="container">
+            <div className="container align-items-center justify-content-center">
 
                 {
                     atc.map((v,i)=>{
@@ -175,6 +175,13 @@ export const Cart = ()=>{
                     })
                 }
             </div>
+            <footer class="text-center">
+                <div class="footer-links">
+                    <Link to='/'>Home</Link> |
+                    <Link to='/fav'>My Favourites</Link> |
+                    <Link to='/cart'>My cart</Link> 
+                </div>
+            </footer>
         </div>
     )
 }
