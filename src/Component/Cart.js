@@ -160,9 +160,9 @@ export const Cart = ()=>{
             
                                 {
                                     v.isadd ? 
-                                    <div> 
+                                    <div style={{textAlign:"center"}}> 
                                         <button onClick={()=>minus(v.id,v.count)}> - </button>
-                                        <p style={{textAlign:"center",color:"#4CAF50"}}> {v.count}</p>
+                                        <p style={{color:"#4CAF50"}}> {v.count}</p>
                                         <button onClick={()=>plus(v.id)}> + </button>
 
                                     </div> : <button onClick={()=>add(v.id)}>remove from cart</button>
@@ -175,6 +175,7 @@ export const Cart = ()=>{
                     })
                 }
             </div>
+
             <footer class="text-center">
                 <div class="footer-links">
                     <Link to='/'>Home</Link> |
